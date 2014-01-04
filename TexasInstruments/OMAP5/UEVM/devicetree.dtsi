@@ -1,0 +1,21 @@
+/*
+ * Copyright (C) 2013 Texas Instruments Incorporated - http://www.ti.com/
+ *
+ * This program is free software; you can redistribute it and/or modify
+ * it under the terms of the GNU General Public License version 2 as
+ * published by the Free Software Foundation.
+ */
+
+#include "Skeleton.dtsi"
+#include "OMAP5.dtsi"
+
+/ {
+	compatible = "ti,omap5-uevm", "ti,omap5432", "ti-omap5", "AppleARM";
+	model = "TI OMAP5 uEVM board";
+
+	memory {
+		device_type = "memory";
+		reg = <0x80000000 0x7F000000>; /* 2032 MB */
+	};
+};
+
